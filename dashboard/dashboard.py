@@ -29,8 +29,8 @@ def create_count_by_year_df(df):
     }).reset_index()
 
 # load dataset
-day_df = pd.read_csv("day_fix_df.csv")
-hour_df = pd.read_csv("hour_fix_df.csv")
+day_df = pd.read_csv("dashboard/day_fix_df.csv")
+hour_df = pd.read_csv("dashboard/hour_fix_df.csv")
 
 
 min_date = day_df["dateday"].min()
